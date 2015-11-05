@@ -12,9 +12,15 @@
             "role": "Developer"
         }
     ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git://github.com/dogetipbot/oauth.git"
+        }
+    ],
     "require": {
         "php": ">=5.3",     
-        "lusitanian/oauth": "~0.3"
+        "dogetipbot/oauth": "dev-master"
     },
     "require-dev": {
         "illuminate/support": "~4"
